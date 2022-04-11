@@ -1,0 +1,82 @@
+.tokensCategory {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.token {
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
+  border: 3px solid white;
+  border-radius: 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+  }
+
+  &:hover {
+    border-color: #6347f5;
+  }
+}
+
+@media (max-width: 1650px) {
+  .tokensCategory {
+    margin-bottom: 36px;
+  }
+
+  .token {
+    padding: 20px;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.04);
+    border: 2px solid white;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .tokensCategory {
+    margin-bottom: 30px;
+  }
+
+  .token {
+    padding: 18px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.04);
+  }
+}
+
+@media (max-width: 1199px) {
+  .tokensCategory {
+    margin-bottom: 24px;
+  }
+
+  .token {
+    padding: 14px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.04);
+  }
+}
+
+@media (max-width: 991px) {
+  .tokensCategory {
+    margin-bottom: 20px;
+  }
+
+  .token {
+    padding: 12px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+  }
+}
+
+@media (max-width: 767px) {
+  .tokensCategory {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .token {
+    padding: 22px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+  }
+}

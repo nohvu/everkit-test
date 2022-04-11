@@ -1,0 +1,563 @@
+//wrapper of item
+.token {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+@media (max-width: 767px) {
+  .token {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+//Token ID
+.tokenID {
+  width: 20px;
+  font-size: 18px;
+  color: #93949d;
+  margin-right: 18px;
+}
+@media (max-width: 1410px) {
+  .tokenID {
+    width: 16px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1199px) {
+  .tokenID {
+    width: 12px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tokenID {
+    width: 24px;
+    font-size: 14px;
+  }
+}
+
+//Token Logo
+.tokenLogo {
+  width: 48px;
+  margin-right: 12px;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .tokenLogo {
+    width: 42px;
+    margin-right: 10px;
+    img {
+      width: 34x;
+      height: 34px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .tokenLogo {
+    width: 38px;
+    margin-right: 10px;
+    img {
+      width: 26px;
+      height: 26px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tokenLogo {
+    width: 32px;
+    margin-right: 10px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .tokenLogo {
+    margin-right: 10px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+//Token Name
+.tokenName {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  margin-right: 12px;
+  font-size: 21px;
+  color: black;
+  a {
+    margin-bottom: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+@media (max-width: 1650px) {
+  .tokenName {
+    width: 190px;
+    margin-right: 10px;
+    font-size: 18px !important;
+
+    a {
+      margin-bottom: 8px;
+    }
+  }
+}
+@media (max-width: 1410px) {
+  .tokenName {
+    width: 164px;
+    margin-right: 8px;
+    font-size: 14px !important;
+
+    a {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .tokenName {
+    width: 130px;
+    margin-right: 6px;
+    font-size: 11px !important;
+
+    a {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .tokenName {
+    width: 108px;
+    margin-right: 5px;
+    font-size: 9px !important;
+
+    a {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tokenName {
+    width: 140px;
+    margin-right: 5px;
+    font-size: 14px !important;
+
+    a {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+//Token Price
+.tokenPriceInfo {
+  width: 220px;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+@media (max-width: 1650px) {
+  .tokenPriceInfo {
+    width: 190px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .tokenPriceInfo {
+    width: 164px;
+    font-size: 12px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .tokenPriceInfo {
+    width: 130px;
+    font-size: 11px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tokenPriceInfo {
+    width: 108px;
+    font-size: 9px;
+    margin-right: 6px;
+  }
+}
+@media (max-width: 767px) {
+  .tokenPriceInfo {
+    width: 140px;
+    font-size: 14px;
+    margin-right: 6px;
+  }
+}
+
+//Token Price - change
+.tokenPriceChange {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  font-size: 14px;
+
+  span {
+    margin-right: 6px;
+  }
+
+  .green {
+    color: #30bf8c;
+  }
+  .red {
+    color: #ff647c;
+  }
+  .gray {
+    color: #93949d;
+  }
+}
+
+@media (max-width: 1650px) {
+  .tokenPriceChange {
+    font-size: 12px;
+    span {
+      margin-right: 4px;
+    }
+  }
+}
+
+@media (max-width: 1410px) {
+  .tokenPriceChange {
+    font-size: 9px;
+    span {
+      margin-right: 3px;
+    }
+  }
+}
+@media (max-width: 1199px) {
+  .tokenPriceChange {
+    font-size: 8px;
+    span {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .tokenPriceChange {
+    font-size: 6px;
+    span {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tokenPriceChange {
+    font-size: 10px;
+    span {
+      margin-right: 0px;
+    }
+  }
+}
+
+//Token Price change -- point element
+.point {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+@media (max-width: 1199px) {
+  .point {
+    width: 10px;
+    height: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .point {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+//Token Volume
+.volumeInfo {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+@media (max-width: 1650px) {
+  .volumeInfo {
+    width: 190px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .volumeInfo {
+    width: 164px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .volumeInfo {
+    width: 130px;
+    margin-right: 6px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 991px) {
+  .volumeInfo {
+    width: 108px;
+    margin-right: 5px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767px) {
+  .volumeInfo {
+    width: 140px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+}
+
+//Token TVL
+.tvlInfo {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+@media (max-width: 1650px) {
+  .tvlInfo {
+    width: 190px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1410px) {
+  .tvlInfo {
+    width: 164px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .tvlInfo {
+    width: 130px;
+    margin-right: 6px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tvlInfo {
+    width: 108px;
+    margin-right: 5px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tvlInfo {
+    width: 140px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+}
+
+//Token Users
+.accInfo {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  margin-right: 16px;
+  font-size: 18px;
+  svg {
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .accInfo {
+    width: 190px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .accInfo {
+    width: 164px;
+    margin-right: 8px;
+    font-size: 12px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .accInfo {
+    width: 130px;
+    margin-right: 6px;
+    font-size: 12px;
+
+    svg {
+      width: 11px;
+      height: 11px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .accInfo {
+    width: 108px;
+    margin-right: 5px;
+    font-size: 9px;
+
+    svg {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .accInfo {
+    width: 140px;
+    margin-right: 5px;
+    font-size: 14px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+//Token all items with %
+
+.percent {
+  font-size: 16px;
+  color: #6347f5;
+  margin-left: 16px;
+}
+
+@media (max-width: 1650px) {
+  .percent {
+    font-size: 14px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .percent {
+    font-size: 10px;
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .percent {
+    font-size: 9px;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .percent {
+    font-size: 7px;
+    margin-left: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .percent {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+}
+
+//Token Color Elements
+.blueInfo {
+  color: #6347f5;
+}
+
+.chevron {
+  transform: rotate(180deg);
+}
+@media (max-width: 1199px) {
+  svg {
+    width: 20px;
+  }
+}
+
+//Token Description
+p {
+  font-size: 16px;
+  margin: 24px 0 0 0;
+}
+
+@media (max-width: 1650px) {
+  p {
+    font-size: 14px;
+    margin: 20px 0 0 0;
+  }
+}
+@media (max-width: 1410px) {
+  p {
+    font-size: 12px;
+    margin: 18px 0 0 0;
+  }
+}
+@media (max-width: 1199px) {
+  p {
+    font-size: 10px;
+    margin: 18px 0 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  p {
+    font-size: 8px;
+    margin: 17px 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  p {
+    font-size: 12px;
+    margin: 17px 0 0 0;
+  }
+}
